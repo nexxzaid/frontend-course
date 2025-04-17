@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.grid {
+    width: 600px; 
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 80px;
+    gap: 15px;
+    padding: 20px;
+    color: white;
+}
+
+.grid-item{
+    font-size: 18px;
+    display: flex;
+    background: #00b32d;
+    transition: 0.3s;
+}
+
+.item1:hover{
+    transform: translateX(150px);
+}
+
+.item2:hover{
+    transform: translateY(120px);
+}
+
+.item3:hover{
+    transform: translate(300px, -50px);
+}
+
+.item4:hover{
+    transform: scaleX(2.5);
+}
+
+.item5:hover{
+    transform: scaleY(3.5);
+}
+
+.item6:hover{
+    transform: scale(2.5, 1.5);
+}
+
+.item7:hover{
+    transform: rotate(180deg);
+}
+
+.item8:hover{
+    transform: skewX(20deg);
+}
+
+.item9:hover{
+    transform: skewY(20deg);
+}
+
+.item10:hover{
+    transform: skew(20deg, 20deg);
+}
+
+.item11{
+    animation: one 2s infinite;
+}
+
+.item12{
+    animation: two 4s infinite;
+}
+
+@keyframes one {   
+  0% {     
+    background-color: #00b32d;   
+  }   
+  50% {     
+    background-color: rgb(255, 0, 0);   
+  } 
+  100% {
+    background-color: #00b32d;
+   }
+}
+
+@keyframes two {
+    0% {
+      width: 100%;
+      height: 100%;
+    }
+    25% {
+      width: 100%;
+      height: 200px;
+    }
+    50% {
+        width: 300px;
+        height: 200px
+    }
+    75%{
+        height: 100%;
+    }
+    100% {
+      width: 100%;
+      height: 100%;
+    }
+  }

@@ -1,0 +1,42 @@
+body{
+    background-image: url(img/123.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.text{
+    color: white;
+}
+
+.block1{
+    width: 400px;
+    height: 400px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-radius: 50px;
+    background: linear-gradient(to left, black, rgb(43, 43, 43), black);
+    margin-left: 150px;
+}
+
+.block2{
+    border: 2px solid rgb(255, 255, 255);
+    width: 400px;
+    height: 400px;
+    border-radius: 50px;
+    background: linear-gradient(to left, black, rgb(43, 43, 43), black);
+    margin-left: 1200px;
+}
+
+.block3{
+    border: 2px solid rgb(255, 255, 255);
+    width: 400px;
+    height: 400px;
+    border-radius: 50px;
+    background: linear-gradient(to left, black, rgb(43, 43, 43), black);
+    margin-left: 501px;
+    margin-bottom: 600px;
+}
+

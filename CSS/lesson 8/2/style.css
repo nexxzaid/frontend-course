@@ -1,0 +1,34 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.block1{
+    width: 100%;
+    height: 80px;
+    background-color: orange;
+    border: 1px solid black;
+    padding-top: 10px;
+}
+.block2{
+    width: 30%;
+    height: 400px;
+    background-color: lightgreen;
+    border: 1px solid black;
+}
+.block3{
+    width: 67%;
+    height: 400px;
+    background-color: lightgreen;
+    border: 1px solid black;
+    margin-left: 33%;
+    margin-top: -400px;
+}
+.block4{
+    width: 100%;
+    height: 80px;
+    background-color: orange;
+    border: 1px solid black;
+    margin-top: 30px;
+}

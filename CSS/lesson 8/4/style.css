@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #a1c4e6;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    display: block; /* Используем block вместо flex */
+}
+
+aside {
+    width: 25%;
+    background-color: #76d7c4;
+    float: left; /* Используем float для расположения aside */
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+article {
+    width: 70%;
+    float: right; /* Позиционируем article справа */
+    padding: 20px;
+    background-color: #f1948a;
+    box-sizing: border-box;
+}
+
+.images {
+    overflow: hidden; /* Для понимания потока контейнера */
+}
+
+.image-box {
+    width: 30%;
+    background-color: #d5dbdb;
+    margin: 1.5%;
+    float: left; /* Выравнивание изображений по горизонтали */
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+footer {
+    clear: both; /* Очищаем элементы, чтобы footer находился под ними */
+    background-color: #76d7c4;
+    text-align: center;
+    padding: 10px;
+}

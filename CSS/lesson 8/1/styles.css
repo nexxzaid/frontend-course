@@ -1,0 +1,35 @@
+body{
+    background-image: url(img/123.jpg);
+    background-repeat: no-repeat ;
+    background-size: cover;
+    background-position: auto;
+    
+}
+
+.block1, .block2, .block3{
+    width: 200px;
+    height: 200px;
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.249);
+}
+.block1{
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.block2 {
+    background-color: rgba(128, 128, 128, 0.349);
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+.block3{
+    background-color: rgba(0, 255, 255, 0.249);
+    margin: 20px 30px 40px;
+    padding: 15px 20px 10px;
+}
+
+.text1 {
+    margin-bottom: 50px;
+}
